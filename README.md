@@ -8,10 +8,19 @@ alunos de graduação, a fim de incentivar a atuação na robótica e automaçã
 </p>
 
 ## Missões :dart:
-Missões são atividades disponibilizadas para os inscritos no Origin aprenderem ferramentas e conhecimentos teóricos sobre robótica e automação, e
+<p align="justify">
+Missões são atividades disponibilizadas para os inscritos no Origin aprenderem a usar novas ferramentas e adquirirem conhecimentos teóricos sobre robótica e automação, e
 colocar na prática esse aprendizado. São três missões intodutórias e uma missão de especialização em um projeto específico.
+</p>
 
 ## Missões Introdutórias
 
 ### Missão Arduino 
-Utilizar o simulador TinkerCad para que fazer um LED piscar com diferentes períodos de tempo usando uma placa de prototipagem arduino 
+Utilizar o simulador TinkerCad para fazer um LED piscar com diferentes períodos de tempo usando uma placa de prototipagem arduino.
+
+### Missão OpenCV
+Aprendendo o básico sobre uma biblioteca de visão computacional. Entendendo sobre os conceitos básico para trabalhar com imagens e como realizar manipulações de pixel.
+
+### Missão CoppeliaSim
+Aprendendo o básico sobre um simulador robótico, entendendo a interface e seu sistema de hierarquia por meio da visualização de modelos robóticos
+disponíveis, essa missão consiste em criar uma cena e construir um pêndulo.
