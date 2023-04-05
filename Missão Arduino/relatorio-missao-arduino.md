@@ -17,9 +17,9 @@ A primeira etapa consiste na montagem da parte fisíca do circuito
 
 - **Primeiro Passo**: Selecionar uma placa Arduino Uno R3, o arduino é uma plataforma de prototipagem eletrônica, a placa é o hardware que vamos usar para construir nossos projetos e o Arduino IDE é o software onde vou escrever o que a placa deve fazer(nesse caso, fazer o LED piscar em períodos de tempo diferentes), para programar na IDE Arduino podemos escrever o código em c++.
 
-- **Segundo Passo**: Selecionar uma placa protoboard pequena. A protoboard é uma placa com furos e conexões comumente utilizada na prototipagem de circuitos elétricos.
+- **Segundo Passo**: Selecionar uma placa protoboard pequena. Uma protoboard é uma placa com diversos furos e conexões condutoras verticais e horizontais para a montagem de circuitos elétricos.
 
-- **Terceiro Passo**: Essa parte já tenho feita (é a parte do resistor) 
+- **Terceiro Passo**: Selecionar um resitor com resistência de 220ohm (equivalente a 220 Volts/Ampére), limitando o fluxo de cargas elétricas
 
 - **Quarto Passo**: Posicionando o resistor nos furos g3 e e3
 
