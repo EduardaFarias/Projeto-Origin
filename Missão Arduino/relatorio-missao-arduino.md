@@ -29,6 +29,8 @@ A primeira etapa consiste na montagem da parte fisíca do circuito
 
 - **Sétimo Passo**: Vamos usar fios condutores na cor vermelha para a trilha de furos como positiva e conectar ao pino 13(porta digital que serve para entradas e saídas), o LED está ligado a este pino.
 
+## Segunda Etapa 
+
 Com o circuito montado vamos à parte do código, antes disso algumas considerações. A linguagem C para arduino precisa de duas funções:
 - **Função setUp()**: Serve para definir o pino de entrada e o pino de saída, portanto é executada apenas uma vez
 - **Função loop()**: Repete em Loop infinito os comandos que estão dentro da função
