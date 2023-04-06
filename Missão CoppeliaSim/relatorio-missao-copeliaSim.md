@@ -21,3 +21,7 @@ Foi construído um pêndulo com blocos e uma junta de revolução(articulação)
 ## Link para acessar a cena:
 
 Clique <a href="https://drive.google.com/drive/folders/1yEkQZQtz6sNa7UfTJikMKuHTssyZRsxS?usp=sharing" target="_blank">aqui</a> para acessar a cena.
+
+
+<p align="center"> Maria Eduarda Batista de Farias</p>
+<p align="center"> 05/04/2023</p>
