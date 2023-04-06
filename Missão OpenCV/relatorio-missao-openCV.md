@@ -32,3 +32,8 @@ Essas características da imagem podem ser observadas através do shape[] da ima
 
 ## Conclusão:
 Este programa abre uma imagem, mostra suas propiedades de largura e altura em pixels, mostra a quantidade de canais utilizados e exibe a imagem na tela, espera que seja pressionado alguma tecla para fechar a imagem, e por fim a imagem é salva no repositório com o nome de saida.png
+
+
+
+<p align="center"> Maria Eduarda Batista de Farias</p>
+<p align="center"> 05/04/2023</p>
