@@ -63,7 +63,5 @@ Agora sim, vamos aos comentários do código:
 
 Dessa forma concluimos que o programa com Arduino fez piscar com sucesso um LED piscar com 3 períodos de tempo diferentes.
 
-## Link para o circuito feito no tinkerCAD:
 
-Clique <a href="https://www.tinkercad.com/things/fKmMRb3yrRp-missao-arduino" target="_blank">aqui</a> para acessar o circuito.
 
