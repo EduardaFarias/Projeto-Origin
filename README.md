@@ -24,3 +24,9 @@ Aprendendo o básico sobre uma biblioteca de visão computacional. Entendendo so
 ### Missão CoppeliaSim
 Aprendendo o básico sobre um simulador robótico, entendendo a interface e seu sistema de hierarquia por meio da visualização de modelos robóticos
 disponíveis, essa missão consiste em criar uma cena e construir um pêndulo.
+
+
+
+## Missão de Especialização
+
+Consiste numa missão para aplicação específica dentro das áreas abordadas. A missão escolhida por mim foi a 4.0, seu objetivo é detectar e reconhecer objetos através de suas cores.
