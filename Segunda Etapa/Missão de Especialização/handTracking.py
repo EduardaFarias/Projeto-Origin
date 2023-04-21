@@ -1,4 +1,4 @@
-import cv2      # Importando a biblioteca OpenCv
+pythonimport cv2      # Importando a biblioteca OpenCv
 import mediapipe as mp      # Importando a biblioteca mediaPipe
 
 # Essa variável vai abrir nossa webcam, passei como parâmetro a câmera 1
@@ -17,13 +17,13 @@ Hand = hand.Hands(max_num_hands = 1)
 
 mpDraw = mp.solutions.drawing_utils
 
-## Loop para li8gar a câmera
+## Loop para ligar a câmera
 while True:
     check, img = video.read()
     imgRGB = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
     results = Hand.process(imgRGB)
     handsPoints = results.multi_hand_landmarks
-    h, w = img.shape
+    h, w, _ = img.shape
     pontos = []
     if handsPoints:
         for points in handsPoints:
@@ -31,7 +31,7 @@ while True:
             for id,cord in enumerate(points.landmark):
                 cx, cv = int(cord.x*w), int(cord.y*h)
                 #cv2.putText(img,str(id),(cx,cy+10), cv2.FONT_HERSHEY_SIMPLEX,0.5,(255,0,0),2)
-                pontos.append(cx,cy)
+                pontos.append((cx,cv))
         dedos = [8,12,16,20]
         contador = 0
         if points:
@@ -41,12 +41,8 @@ while True:
                 if pontos[x][1] < pontos[x-2][1]:
                     contador += 1
         cv2.rectangle(img,(80,10),(200,100),(255,0,0),-1)
-        cv2.putText(img,str(contador),(100,100),cv2.FONT_HERSHEY_SIMPLEX,4(255,255,255),5)
+        cv2.putText(img,str(contador),(100,100),cv2.FONT_HERSHEY_SIMPLEX,4,(255,255,255),5)
 
 
     cv2.imshow("Imagem", img)
     cv2.waitKey(1)
-
-
-
-
