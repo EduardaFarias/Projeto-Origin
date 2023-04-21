@@ -29,4 +29,4 @@ disponíveis, essa missão consiste em criar uma cena e construir um pêndulo.
 
 ## Missão de Especialização
 
-Consiste numa missão para aplicação específica dentro das áreas abordadas. A missão escolhida por mim foi a 4.0, seu objetivo é detectar e reconhecer objetos através de suas cores.
+Consiste numa missão para aplicação específica dentro das áreas abordadas. A missão  4.0, tem como objetivo utilizar a visão computacional a partir da biblioteca OpenCv e realizar o reconhecimento de números utilizando os dedos da mão
